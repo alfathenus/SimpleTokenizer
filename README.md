@@ -53,9 +53,9 @@ _Properties_
 * `speed`: The speed of async mode
 
 _Methods_
-* `parse`: void function (string, void callback(Array)) > Parse a string and call the callback when it finish
-* `parseSync`: Array function(string) > Parse a string and return a list of tokens
-* `addRule`: void function (RegExp, string) > Add a new rule to test
+* `parse`: `void function (string, void callback(Array))` > Parse a string and call the callback when it finish
+* `parseSync`: `Array function(string)` > Parse a string and return a list of tokens
+* `addRule`: `void function (RegExp, string)` > Add a new rule to test
 
 _Events_
 * `data`: On Async parse, when gets a new token
