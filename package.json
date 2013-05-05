@@ -1,0 +1,31 @@
+{
+    "name": "SimpleTokenizer",
+    "preferGlobal": false,
+    "version": "1.0.0",
+    "author": "Andres Lozada Mosto <andres.lozadamosto@gmail.com>",
+    "description": "A simple search and extract tokens from large o shorts string",
+    "bin": {
+        "SimpleTokenizer": "./bin/SimpleTokenizer"
+      },
+    "main": "./lib/SimpleTokenizer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alfathenus/SimpleTokenizer.git"
+    },
+    "keywords": [
+        "tokens",
+        "extractor",
+        "tokenizer",
+        "search"
+    ],
+    "dependencies" : {
+        "async": ">=0.2.8"
+    },
+    "devDependencies": {
+        "nodeunit": ">=0.8.0"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
