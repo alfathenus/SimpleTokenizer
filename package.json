@@ -5,9 +5,9 @@
     "author": "Andres Lozada Mosto <andres.lozadamosto@gmail.com>",
     "description": "A simple search and extract tokens from large o shorts string",
     "bin": {
-        "SimpleTokenizer": "./bin/SimpleTokenizer"
+        "SimpleTokenizer": "./bin/SimpleTokenizer.js"
       },
-    "main": "./lib/SimpleTokenizer",
+    "main": "./lib/SimpleTokenizer.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/alfathenus/SimpleTokenizer.git"
